@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>A+ Merit Consulting</title>
+        <link rel="icon" type="image/x-icon" href="images/fav.ico">
+
+        <!-- FONT AWESOME -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <!-- SWIPER -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <!-- EXTERNAL CSS -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style-max.css">
+    </head>
+
+    <body>
+        <!-- HERO SECTION -->
+        <section class="hero-container">
+            <nav class="navbar">
+                <div class="left-nav"><img src="images/logo-3.png" alt="Company Logo"></div>
+                
+                <div class="right-nav">
+                    <div class="nav-item"><a href="#hero">Home</a></div>
+                    <div class="nav-item"><a href="#about">About</a></div>
+                    <div class="nav-item"><a href="#works">Services</a></div>
+                    <div class="nav-item special-item"><a href="#contact">Contact</a></div>
+                </div>
+
+                <div class="menu-icon" onclick="toggleMenu()">
+                    <div class="bar-icon"><i class="fa-solid fa-bars"></i></div>
+                    <div class="x-icon" style="display: none;"><i class="fa-solid fa-x"></i></div>
+                </div>
+            </nav>
+
+            <div class="head-cnt">
+                <div class="head-info-cnt"></div>
+
+                <div class="head-main">
+                    <div class="head-main-text">
+                        <p>Restoring Your Personal Credit Matters.</p>
+                        <div class="line"></div>
+                        <h3>Get Professional help repairing your Credit for Personal and Business Leverage.</h3>
+                    </div>
+
+                    <div class="head-main-form">
+                        <div class="form-header">
+                            <h4>Book an Appointment</h4>
+                            <div class="line"></div>
+                        </div>
+
+                        <form class="main-form" action="" method="post">
+                            <div class="input-text">
+                                <input type="text" name="first-name" placeholder="First Name" required>
+                                <input type="text" name="last-name" placeholder="Last Name" required>
+                            </div>
+                            <input type="number" name="p-number" placeholder="Phone" required>
+                            <input type="email" name="email" placeholder="Email" required>
+                            <textarea name="message" id="" cols="10" rows="10" placeholder="Message" required></textarea>
+                            
+                            <div class="button">
+                                <button type="submit">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+
+        <section class="about-container">
+            <div class="about-top">
+                <div class="about-top-img">
+                    <div class="img-1"></div>
+                    <div class="img-2"></div>
+                </div>
+
+                <div class="about-top-info">
+                    <div class="about-text">
+                        <h3>About A<sup>+</sup> Merit Consulting LLC</h3>
+                        <p>At A<sup>+</sup> Merit Consulting LLC, our mission is to empower individuals and businesses to achieve financial independence and growth. We are dedicated to providing
+                        comprehensive credit repair solutions, guiding seamless business registration, securing robust funding, and delivering insightful education to leverage finances effectively. We 
+                        strive to pave the way for our clients to build prosperous, cash-flowing enterprises through strategic and personalized support.</p>
+                    </div>
+
+                    <div class="about-text">
+                        <h3 id="about-alt">Vision Statement</h3>
+                        <p>Our vision is to be the leading force in financial consulting, where our man expert guidance becomes the cornerstone of our clients' business success stories. We envision a 
+                        future where every entrepreneur and individual has access to the resources and knowledge they need to turn their financial aspirations into reality. Aplus Classic Consulting 
+                        LLC is committed to fostering economic growth and stability through our unwavering support and innovative strategies.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-bottom">
+                <div class="about-bottom-text">
+                    <h3>Call Us Today for Consultations</h3>
+                    <p>A<sup>+</sup> Classic Consulting specializes in a holistic approach to financial well-being and business development.</p>
+                </div>
+                <button class="call-btn">Call +1 (832) 987-3454</button>
+            </div>
+        </section>
+
+        <!-- SERVICES SECTION -->
+
+        <section class="services-container">
+            <div class="service-cnt">
+                <div class="services-text">
+                    <h3>Our Services</h3>
+                    <div class="line"></div>
+                    <p>Our expertise lies in our ability to blend financial acumen with strategic business planning, enabling our clients to not only repair their credit but also to establish and expand 
+                    their businesses with a solid financial underpinning.</p>
+                </div>
+    
+                <div class="services-cards">
+                    <div class="service-card">
+                        <div class="card-img"><img src="images/card-credit.jpeg"></div>
+                        <h4>Credit Repair</h4>
+                        <p>We help clients understand their credit reports, dispute inaccuracies, and implement strategies to improve their credit scores effectively.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="card-img"><img src="images/card-reg.jpeg"></div>
+                        <h4>Business Registration</h4>
+                        <p>Our team assists entrepreneurs in navigating the complexities of business registration, ensuring compliance with legal frameworks, and setting a strong foundation for future 
+                        operations.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="card-img"><img src="images/card-fund.jpeg"></div>
+                        <h4>Business Credit (Funding)</h4>
+                        <p>We guide clients through the intricate process of securing funding for their ventures, including identifying appropriate funding sources and preparing compelling funding 
+                        applications.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="card-img"><img src="images/card-lit.jpeg"></div>
+                        <h4>Business Financial Literacy</h4>
+                        <p>Educating entrepreneurs on business finance management, including understanding balance sheets, income statements, and cash flow management.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="card-img"><img src="images/card-credit.jpeg"></div>
+                        <h4>Business Strategy Education</h4>
+                        <p>Beyond funding, we educate our clients on how to utilize their capital strategically to establish and grow cash-flowing businesses through diverse strategies tailored to their 
+                        industry and goals.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+
+        <section class="contact-container">
+            <div class="contact-form">
+                <div class="contact-form-text">
+                    <h4>Grow Your Business Beyond <span class="green">Expectation</span></h4>
+                    <p>You will get a response within 24hours. We will explain how we can help you fuel and grow your business within the stated budget.</p>
+                </div>
+
+                <div class="contact-form-field">
+                    <form class="other-form" action="" method="post">
+                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="email" name="email-address" placeholder="Email Address" required>
+                        <input type="number" name="phone-number" placeholder="Phone Number" required>
+                        <!-- <input type="text" name="services" placeholder="Services" required> -->
+                        <input type="text" list="service" name="services" placeholder="Services" required>
+                        <datalist id="service">
+                            <option value="Credit Repair"></option>
+                            <option value="Business Registration"></option>
+                            <option value="Business Strategy"></option>
+                            <option value="Business Financial Literacy"></option>
+                            <option value="Business Credit Funding"></option>
+                        </datalist>
+                        <input type="text" name="goals" placeholder="Goals" required>
+                        
+                        <div class="contact-btn">
+                            <button type="submit">Send Enquiry</button>
+                            <!-- <i class="fa-solid fa-arrow-right"></i> -->
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- MORE-SERVICES SECTION -->
+
+        <section class="extra-container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="extra-header">
+                            <h4>More Services Offered</h4>
+                        </div>
+            
+                        <div class="extra-cards">
+                            <div class="extra-card">
+                                <h4>Personalized Financial Assessment</h4>
+                                <p>Offering one-on-one consultations to evaluate clients' current financial status and identify areas for improvement.</p>
+                            </div>
+            
+                            <div class="extra-card">
+                                <h4>Credit Education Workshops</h4>
+                                <p>Conducting workshops that explain credit scores, reports, and the impact of credit on financial health.</p>
+                            </div>
+                            
+                            <div class="extra-card">
+                                <h4>Resource Provision</h4>
+                                <p>Supplying clients with resources such as articles, eBooks, and videos on financial topics.</p>
+                            </div>
+            
+                            <div class="extra-card">
+                                <h4>Budget and Money Management Training</h4>
+                                <p>Teaching effective budgeting techniques and money management strategies to ensure long-term financial stability.</p>
+                            </div>
+            
+                            <div class="extra-card">
+                                <h4>Debt Management Plan</h4>
+                                <p>Assisting clients in understanding various debt reduction strategies and helping them create a plan to manage and pay off debts.</p>
+                            </div>
+            
+                            <div class="extra-card">
+                                <h4>Investment Strategies</h4>
+                                <p>Educating clients on the basics of investments, risks, and the importance of diversification.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide second-slide">
+                        <div class="extra-header second-head">
+                            <h4>More Services Offered</h4>
+                        </div>
+            
+                        <div class="extra-cards">
+                            <div class="extra-card">
+                                <h4>Retirement Planning</h4>
+                                <p>Offering guidance on how to plan for retirement, explaining different retirement accounts, and strategies for long-term savings.</p>
+                            </div>
+            
+                            <div class="extra-card">
+                                <h4>Financial Goal Setting</h4>
+                                <p>Helping clients set realistic financial goals and develop a step-by-step plan to achieve them.</p>
+                            </div>
+                            
+                            <div class="extra-card">
+                                <h4>Risk Management</h4>
+                                <p>Teaching about insurance and other risk management strategies to protect personal and business finances.</p>
+                            </div>
+            
+                            <div class="extra-card">
+                                <h4>Navigating Financial Products</h4>
+                                <p>Guiding clients through the myriad of financial products available, from savings accounts to complex investment instruments, helping them make informed decisions.</p>
+                            </div>
+            
+                            <div class="extra-card">
+                                <h4>Tax Planning Education</h4>
+                                <p>Providing information on tax implications and strategies to optimize tax situations both personally and for businesses.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- FOOTER SECTION -->
+
+        <footer class="footer">
+            <div class="footer-items">
+                <div class="ft-logo"><img src="images/logo-3.png" alt="Company Logo"></div>
+
+                <div class="ft-info">
+                    <div class="ft-call">
+                        <h3>Call Us</h3>
+                        <div class="ft-phone">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>+1 (832) 987-3454</p>
+                        </div>
+                        <div class="ft-mail">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>info@meritconsultingllc.org</p>
+                        </div>
+                    </div>
+
+                    <div class="ft-reach">
+                        <h3>Reach Us</h3>
+                        <p>17350 State Hwy 249,</p>
+                        <p>Ste 220 #21023,</p>
+                        <p>Houston, TX 77064</p>
+                    </div>
+
+                    <div class="ft-hour">
+                        <h3>Open Hours</h3>
+                        <p>Mon-Fri 09:00 - 19:00</p>
+                        <p>Sat-Sun 10:00 - 14:00</p>
+                    </div>
+
+                    <div class="ft-follow">
+                        <h3>Follow Us</h3>
+                        <div class="ft-icons">
+                            <a href="#" class="fb-icon"><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href="#" class="ig-icon"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-btm">
+                <p>Copyright ©</p>
+                <p>Powered by</p>
+            </div>
+        </footer>
+        
+
+
+
+
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+            cssMode: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+            },
+            mousewheel: true,
+            keyboard: true,
+            });
+        </script>
+
+        <script src="index.js"></script>
+    </body>
+</html>
